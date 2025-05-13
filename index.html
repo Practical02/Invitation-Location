@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>41st Day Ceremony Directions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background: #fce4ec;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-image: url('https://www.transparenttextures.com/patterns/flowers.png');
+      background-repeat: repeat;
+    }
+
+    .container {
+      text-align: center;
+      padding: 30px 20px;
+      max-width: 420px;
+      width: 90%;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    }
+
+    .container h1 {
+      font-size: 26px;
+      margin-bottom: 8px;
+      color: #880e4f;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 24px;
+    }
+
+    .location-btn {
+      display: block;
+      width: 100%;
+      padding: 16px;
+      margin: 12px 0;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      background: #f8bbd0;
+      color: #4a148c;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-weight: 600;
+    }
+
+    .location-btn:hover {
+      background: #f48fb1;
+    }
+
+    .location-btn, .contact-btn {
+        display: block;
+        width: 100%;
+        padding: 16px;
+        margin: 12px 0;
+        font-size: 16px;
+        border: none;
+        border-radius: 8px;
+        background: #f8bbd0;
+        color: #4a148c;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-weight: 600;
+      }
+  
+      .location-btn:hover, .contact-btn:hover {
+        background: #f48fb1;
+      }
+
+    .footer {
+      margin-top: 25px;
+      font-size: 12px;
+      color: #880e4f;
+      font-weight: 600;
+    }
+
+    .footer span {
+      display: block;
+      margin-top: 5px;
+    }
+
+        /* Style for the contact buttons container */
+        .contact-btn-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+          }
+      
+          .contact-btn-container .contact-btn {
+            width: auto;
+            padding: 12px 20px;
+            font-size: 14px;
+            border-radius: 8px;
+          }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>41st Day Memorial</h1>
+    <div class="subtitle">Please select a location for directions</div>
+
+    <button class="location-btn" onclick="window.open('https://maps.app.goo.gl/QfaJUQBjsoEr5p6Z8', '_blank')">
+      Chapel
+    </button>
+
+    <button class="location-btn" onclick="window.open('https://maps.app.goo.gl/a8SDWp8kJDpWqEjDA', '_blank')">
+        Cemetery
+      </button>
+
+    <button class="location-btn" onclick="window.open('https://maps.app.goo.gl/DPpkPtVg462ct5BW7', '_blank')">
+      Home
+    </button>
+
+    <button class="location-btn" onclick="window.open('https://maps.app.goo.gl/x9o7Vzj212Wev5oDA', '_blank')">
+      Grand Dubai Palace
+    </button>
+
+    <div class="contact-btn-container">
+
+    <button class="contact-btn" onclick="window.location.href='tel:+919387938606'">
+        Call: 9387938606
+      </button>
+  
+      <button class="contact-btn" onclick="window.location.href='tel:+918136888606'">
+        Call: 8136888606
+      </button>
+
+    </div>
+    
+
+    <div class="footer">
+      In loving memory of P.I Lucy (Retd. Postmaster)<br>
+      <span>With heartfelt remembrance</span>
+    </div>
+  </div>
+</body>
+</html>
